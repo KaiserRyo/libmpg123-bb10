@@ -6,6 +6,20 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 (This file has very long lines - die-hard terminal nostalgists can be satisfied by `fmt -s -w 75 < README | less`. I think it's better to let the reader's preference rule than to preformat the stuff to some arbitrary width.)
 
+BlackBerry 10 guide:
+
+You'll need BlackBerry 10 Native SDK. After you download the SDK, set the environment variables by running bbndk-env script provided in the SDK:
+
+
+
+-current version: 1.14.4
+-how to build (linux only!)
+1. checkout this repository
+2. $ source bbndk_dir/bbndk-env.sh
+3. $ cd /path/to/your/dir
+4. $ ./configure-bb10
+5. $ make && make install
+
 
 0. Stuff
 
